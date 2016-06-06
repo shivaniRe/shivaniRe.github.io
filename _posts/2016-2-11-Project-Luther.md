@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Predicting movie Gross immediately after release
+title: Predicting Movie Gross Immediately After Release
 ---
 
 One of my first projects at Metis is to scrape data from the web and apply linear regression to build a model. And below is the report of my analysis. 
