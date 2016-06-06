@@ -25,20 +25,20 @@ Thus, the output of the LSI model is a reduced space multilingual term document 
 
 Below are the three highest scoring Spanish translations for sample English words based on above algorithm. 
 
-|English word           |                       Spanish translations                   ||
-|:--------------------- |:-----------------:|:---------------------:|:-----------------:|
-|facilitating	 					|	facilitando       | facilitar             | aprovechando      |
-|imported	 					    |	importadas        | importaciones         | exportada         |
-|often	 					      |	menudo            | frecuencia            | frecuentemente    |
-|language	 					    |	idioma            | dialecto              | lengua            |
-|communication	 				|	comunicación      | fundo                 | fongum            |
-|began	 					      |	inicia            | comienza              | prosigue          |
-|documentation	 				|	documentación     | yuki                  | basse             |
-|helped	 					      |	ayudado           | contribuido           | permitido         |
-|written	 					    |	escrito           | conciliarán           | escritas          |
-|translators	 					|	traductores       | revisores             | auxiliares        |
-|between	 					    |	entre             | interparlamentaria    | mutuo             |
-|substantially	 				|	sustancialmente   | considerablemente     | significativamente|
-|which	 					      |	cual              | claramente            | literalmente      |
+|English Word           |Spanish Translations                                              ||
+|:--------------------- |:------------------|:--------------------------|:------------------|
+|facilitating	 					|	facilitando       | facilitar                 | aprovechando      |
+|imported	 					    |	importadas        | importaciones             | exportada         |
+|often	 					      |	menudo            | frecuencia                | frecuentemente    |
+|language	 					    |	idioma            | dialecto                  | lengua            |
+|communication	 				|	comunicación      | fundo                     | fongum            |
+|began	 					      |	inicia            | comienza                  | prosigue          |
+|documentation	 				|	documentación     | yuki                      | basse             |
+|helped	 					      |	ayudado           | contribuido               | permitido         |
+|written	 					    |	escrito           | conciliarán               | escritas          |
+|translators	 					|	traductores       | revisores                 | auxiliares        |
+|between	 					    |	entre             | interparlamentaria        | mutuo             |
+|substantially	 				|	sustancialmente   | considerablemente         | significativamente|
+|which	 					      |	cual              | claramente                | literalmente      |
 
 We can discern that this algorithm not only captures regular words but also captures verb forms and plurals accurately. To make these translations available to everyone I have built a chrome extension. Code for this extension is available [here](https://github.com/shivaniRe/seekna-chrome-extension). For future work, it is worth trying n-gram translations and implementing text translation using word2vec neural network. Another area worth exploring is translating idioms. Code for my unigram translation algorithm is available on [github](https://github.com/shivaniRe/Text_translator).
