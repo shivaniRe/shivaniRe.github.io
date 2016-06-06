@@ -25,7 +25,7 @@ Thus, the output of the LSI model is a reduced space multilingual term document 
 
 Below are the three highest scoring Spanish translations for sample English words based on above algorithm. 
 
-|English Word           |Spanish Translations                                              ||
+|English Word           |                   Spanish Translations                          |||
 |:--------------------- |:------------------|:--------------------------|:------------------|
 |facilitating	 					|	facilitando       | facilitar                 | aprovechando      |
 |imported	 					    |	importadas        | importaciones             | exportada         |
